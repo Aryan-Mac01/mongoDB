@@ -1,0 +1,1 @@
+mongodb+srv://aryanmishra3011:mongoDB1234@cluster0.mhapcrs.mongodb.net/?retryWrites=true&w=majority
