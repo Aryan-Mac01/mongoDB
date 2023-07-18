@@ -7,8 +7,9 @@ mongoose.connect("mongodb://localhost:27017/fruitsDB", { useNewUrlParser: true})
 const fruitSchema = new mongoose.Schema({
   name: String,
   rating: Number,
-  review: String
-  
+  review: String,
+  overview: String
+
 });
 
 const Fruit = mongoose.model("Fruit", fruitSchema);
