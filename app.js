@@ -8,7 +8,8 @@ const fruitSchema = new mongoose.Schema({
   name: String,
   rating: Number,
   review: String,
-  overview: String
+  overview: String,
+  feedback: String
 
 });
 
