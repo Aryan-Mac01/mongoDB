@@ -18,7 +18,8 @@ const Fruit = mongoose.model("Fruit", fruitSchema);
 const fruit = new Fruit ({
   name: "Apple",
   rating: 7,
-  review: "Apple"
+  review: "Apple",
+  overview: "Nice apple"
 });
 
 fruit.save();
